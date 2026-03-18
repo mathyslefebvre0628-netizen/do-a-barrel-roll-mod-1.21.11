@@ -11,7 +11,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.ViewportEvent;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 
-@EventBusSubscriber(modid = BarrelRollMod.MOD_ID, bus = EventBusSubscriber.Bus.GAME, value = Dist.CLIENT)
+@EventBusSubscriber(modid = BarrelRollMod.MOD_ID, value = Dist.CLIENT)
 public class ElytraFlightHandler {
 
     public static float currentRoll = 0f;
