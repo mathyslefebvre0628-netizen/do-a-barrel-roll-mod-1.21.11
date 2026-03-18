@@ -1,7 +1,5 @@
 plugins {
     id 'java'
-    plugins {
-    id 'java'
     id 'net.neoforged.moddev' version '2.0.140'
 }
 
